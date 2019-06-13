@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="278.0" prefWidth="383.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rentacarnabavkaapp.GlavnaFXMLController">
+    <children>
+      <Button layoutX="255.0" layoutY="61.0" onAction="#starterAutomobila" text="Automobili" />
+      <Button layoutX="74.0" layoutY="61.0" mnemonicParsing="false" onAction="#starterRadnika" text="Radnici" />
+      <Button layoutX="74.0" layoutY="176.0" mnemonicParsing="false" onAction="#starterDobavljaca" text="Dobavljaci" />
+      <Button layoutX="262.0" layoutY="176.0" mnemonicParsing="false" onAction="#starterUgovora" text="Ugovori" />
+    </children>
+</AnchorPane>
